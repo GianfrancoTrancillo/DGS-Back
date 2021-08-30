@@ -1,0 +1,283 @@
+{% extends "master.njk" %}
+{% block main %}
+    <div id="carousel-big-screen" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div id="carousel-main" class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row-lg d-flex">
+            <div class="col-lg p-0 carousel-images">
+              <img src="./img/foto A21.jpg" class="w-100 carousel-img img-fluid" alt="vidriera-corporeo-A21-">
+              <div class="carousel-caption d-none d-md-block text-center slide-text-left">
+                <h2>BIENVENIDOS A DGS CARTELERÍA</h2>
+                <p>Ofrecemos un servicio personalizado de avanzada</p>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#contacto-modal"
+                  class="btn btn-carousel m-1">Contactar</a>
+              </div>
+
+            </div>
+            <div class="col-lg p-0 carousel-images">
+              <img src="./img/foto carrera.jpg" class="w-100 carousel-img img-fluid"
+                alt="vidriera-comercial-ploteado-carrera">
+              <div class="carousel-caption d-none d-md-block text-center slide-text-right">
+                <h2>ASESORAMIENTO PERSONALIZADO</h2>
+                <p>Contanos tu proyecto y lo hacemos realidad</p>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#contacto-modal"
+                  class="btn btn-carousel m-1">Contactar</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row-lg d-flex">
+            <div class="col-lg p-0 carousel-images">
+              <img src="./img/planificacion_contenidos.jpg" class="w-100 carousel-img img-fluid"
+                alt="planificacion-carteleria">
+              <div class="carousel-caption d-none d-md-block text-center slide-text-left height-50">
+                <h2 class="pb-inherit">HACEMOS TU PLAN REALIDAD</h2>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#contacto-modal"
+                  class="btn btn-carousel m-1">Contactar</a>
+              </div>
+
+            </div>
+            <div class="col-lg p-0 carousel-images">
+              <img src="./img/maquinaria.jpg" class="w-100 carousel-img img-fluid" alt="maquina-imprentas">
+              <div class="carousel-caption d-none d-md-block text-center slide-text-right height-50">
+                <h2 class="pb-inherit">TECNOLOGÍA DE AVANZADA</h2>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#contacto-modal"
+                  class="btn btn-carousel m-1">Contactar</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <button class="carousel-control-prev bg-none border-0" type="button" data-bs-target="#carousel-big-screen"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next bg-none border-0" type="button" data-bs-target="#carousel-big-screen"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- termina big-screen carousel -->
+
+    <div id="carousel-small-screen" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div id="carousel-main" class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="p-0 carousel-images">
+            <img src="./img/foto A21.jpg" class="w-100 carousel-img img-fluid" alt="foto A21">
+            <div class="carousel-caption d-md-block text-center slide-text">
+              <h2>BIENVENIDOS A DGS CARTELERÍA</h2>
+              <p>Ofrecemos un servicio personalizado de avanzada</p>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#contacto-modal"
+                class="btn btn-carousel m-1">Contactar</a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="carousel-item">
+
+          <div class="p-0 carousel-images">
+            <img src="./img/foto carrera.jpg" class="w-100 carousel-img img-fluid" alt="foto carrera">
+            <div class="carousel-caption d-md-block text-center slide-text">
+              <h2>ASESORAMIENTO PERSONALIZADO</h2>
+              <p>Contanos tu proyecto y lo hacemos realidad</p>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#contacto-modal"
+                class="btn btn-carousel m-1">Contactar</a>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="p-0 carousel-images">
+            <img src="./img/maquinaria.jpg" class="w-100 carousel-img img-fluid" alt="foto maquina imprentas">
+            <div class="carousel-caption d-md-block text-center slide-text">
+              <h2 class="pb-inherit">TECNOLOGÍA DE AVANZADA</h2>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#contacto-modal"
+                class="btn btn-carousel m-1">Contactar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="p-0 carousel-images">
+            <img src="./img/planificacion_contenidos.jpg" class="w-100 carousel-img img-fluid"
+              alt="planificacion contenidos">
+            <div class="carousel-caption d-md-block text-center slide-text">
+              <h2 class="pb-inherit">HACEMOS TU PLAN REALIDAD</h2>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#contacto-modal"
+                class="btn btn-carousel m-1">Contactar</a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <button class="carousel-control-prev bg-none border-0" type="button" data-bs-target="#carousel-small-screen"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next bg-none border-0" type="button" data-bs-target="#carousel-small-screen"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- termina carousel -->
+
+
+    <hr id="hr">
+    <div id="bienvenidos" class="container-fluid bg-white p-0">
+      <div class="row">
+        <div id="nosotros" class="col-md">
+          <h1>NOSOTROS</h1>
+          <p id="nosotros-p">Somos una empresa ubicada en la zona este del país, enfocada en brindar soluciones
+            integrales de comunicación visual.
+            La fabricación propia, la búsqueda de innovación y mejora continua, son los pilares fundamentales para hacer
+            posible su proyecto; agregando valor a su empresa, ofreciendo calidad y un excelente respaldo post venta.
+          </p>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#contacto-modal" class="btn btn-carousel w-50">Pedí
+            asesoramiento aqui!</a>
+        </div>
+        <div id="camioneta img-fluid" class="col-md">
+          <img id="camioneta-img" src="./img/camioneta dgs.jpg" alt="camioneta DGS cartelería">
+        </div>
+      </div>
+    </div>
+    <!-- termina nosotros -->
+
+    <h2 class="mb-3 text-white">Nuestros Trabajos</h2>
+    <div class="page-content">
+      <div class="card">
+        <div class="content" data-aos="fade-right" data-aos-duration="2500">
+          <h2 class="tittle">Luminosos</h2>
+          <a href="./trabajos/luminosos" class="btn">Ver más</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content" data-aos="fade-up" data-aos-duration="2500">
+          <h2 class="tittle">Estampados</h2>
+          <a href="./trabajos/estampados" class="btn">Ver más</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content" data-aos="fade-left" data-aos-duration="2500">
+          <h2 class="tittle">Vehícular</h2>
+          <a href="./trabajos/vehicular" class="btn">Ver más</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content" data-aos="fade-right" data-aos-duration="2500">
+          <h2 class="tittle">Marquesinas</h2>
+          <a href="./trabajos/marquesinas" class="btn">Ver más</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content" data-aos="fade-up" data-aos-duration="2500">
+          <h2 class="tittle">Lonas</h2>
+          <a href="./trabajos/lonas" class="btn">Ver más</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content" data-aos="fade-left" data-aos-duration="2500">
+          <h2 class="tittle">Vidrieras Comerciales</h2>
+          <a href="./trabajos/vidrierasComerciales" class="btn">Ver más</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content" data-aos="fade-right" data-aos-duration="2500">
+          <h2 class="tittle">Esmerilados</h2>
+          <a href="./trabajos/esmerilados" class="btn">Ver más</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content" data-aos="fade-up" data-aos-duration="2500">
+          <h2 class="tittle">Troquelados</h2>
+          <a href="./trabajos/troquelados" class="btn">Ver más</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content" data-aos="fade-left" data-aos-duration="2500">
+          <h2 class="tittle">Microperforados</h2>
+          <a href="./trabajos/microperforados" class="btn">Ver más</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content" data-aos="fade-right" data-aos-duration="2500">
+          <h2 class="tittle">Corporeos</h2>
+          <a href="./trabajos/corporeos" class="btn">Ver más</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content" data-aos="fade-up" data-aos-duration="2500">
+          <h2 class="tittle">Imantados</h2>
+          <a href="./trabajos/imantados" class="btn">Ver más</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="content" data-aos="fade-up" data-aos-duration="2500">
+          <h2 class="tittle">Otros</h2>
+          <a href="./trabajos/otros" class="btn">Ver más</a>
+        </div>
+      </div>
+    </div>
+
+    {# termina trabajos #}
+    
+    <div id="info-nosotros" class="container-fluid mt-100">
+      <div class="row bg-white">
+
+        <div class="col-sm">
+          <img src="./img/delivery-01.png" alt="Envios a todo el país" />
+          <h3>Envios a todo el país</h3>
+          <p>Para tu comodidad contamos con un servicio de envío a todo el país.</p>
+        </div>
+
+        <div class="col-sm">
+          <img src="./img/compromiso-02.png" alt="Envios a todo el país" />
+          <h3>Compromiso</h3>
+          <p>Los objetivos de su empresa, son nuestra prioridad.</p>
+        </div>
+
+        <div class="col">
+          <img src="./img/calidad-03.png" alt="Envios a todo el país" />
+          <h3>Calidad</h3>
+          <p id="href-clientes">Nos posicionamos en el mercado con productos y servicios de excelencia.</p>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+    <div id="mt-clientes">
+      <h2 id="clientes" class="text-white">Clientes</h2>
+      <div class="customer-logos d-flex">
+        <div class="slide"><img src="./img/A21-logo.jpg"></div>
+        <div class="slide"><img src="./img/autopro-logo.jpg"></div>
+        <div class="slide"><img src="./img/brisas-del-lago-logo.png"></div>
+        <div class="slide"><img src="./img/carrera-logo.png"></div>
+        <div class="slide"><img id="la-floreria-logo" src="./img/lafloreria-logo.png"></div>
+        <div class="slide"><img src="./img/walmer-logo.png"></div>
+        <div class="slide"><img src="./img/viewpoint-logo.png"></div>
+        <div class="slide"><img src="./img/maxima-logo.png"></div>
+        <div class="slide"><img src="./img/logo-SushiGo.png"></div>
+      </div>
+    </div>
+{% endblock %}
